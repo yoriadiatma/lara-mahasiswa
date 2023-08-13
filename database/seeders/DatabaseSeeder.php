@@ -19,7 +19,7 @@ class DatabaseSeeder extends Seeder
             DepartmentSeeder::class,
         ]);
 
-        Student::factory(25)->create();
+        Student::factory(50)->create();
         User::factory(10)->create();
     }
 }

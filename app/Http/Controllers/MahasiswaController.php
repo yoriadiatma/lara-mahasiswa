@@ -19,7 +19,7 @@ class MahasiswaController extends Controller
         //     ]
         // );
         //versi dg compact
-        $students = Student::paginate(10);
+        $students = Student::paginate(5);
         return view('mahasiswa.index', compact('students'));
     }
 

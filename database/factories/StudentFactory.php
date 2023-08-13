@@ -23,7 +23,8 @@ class StudentFactory extends Factory
             'alamat' => $this->faker->streetAddress(),
             'jeniskelamin' => $this->faker->randomElement(['Laki-laki', 'Perempuan']),
             'no_hp' => $this->faker->phoneNumber(),
-            'foto' => $this->faker->lexify('?????.jpg')
+            'foto' => $this->faker->lexify('?????.jpg'),
+            'email' => $this->faker->email()
         ];
     }
 }

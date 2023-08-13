@@ -20,6 +20,7 @@ return new class extends Migration
             $table->string('jeniskelamin');
             $table->string('no_hp');
             $table->string('foto');
+            $table->string('email');
             $table->timestamps();
         });
     }

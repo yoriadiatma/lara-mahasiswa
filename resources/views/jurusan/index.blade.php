@@ -1,6 +1,7 @@
 @extends('layout.layout')
 
 @section('konten')
+
 <h1>Data Jurusan</h1>
 <table class="table">
     <thead>
